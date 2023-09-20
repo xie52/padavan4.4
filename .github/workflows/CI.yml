@@ -22,9 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "CR660x"
-          - build_variant: "mt7621-usb-1"
-            targets: "B70 NEWIFI3"        
+            targets: "CR660x"       
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
