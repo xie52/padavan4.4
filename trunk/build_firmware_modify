@@ -26,7 +26,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config #科学上网插件，�
 echo "CONFIG_FIRMWARE_INCLUDE_XRAY=n" >> .config #集成xray执行文件  ~4.5M
 echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #集成v2ray执行文件
 echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config #集成trojan执行文件  ~1.2M
-echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config #simple-obfs混淆插件
+echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >> .config #simple-obfs混淆插件
 ##科学上网##
 
 ##广告管理##
@@ -44,7 +44,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto  ~0.5M
 ##内网穿透服务##
 echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config  #ALDRIVER  ~3m
 echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #mentohust
-echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM
+echo "CONFIG_FIRMWARE_INCLUDE_SQM=n" >> .config #SQM
 echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=n" >>.config #wireguard 10k
 echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config #frpc
 echo "CONFIG_FIRMWARE_INCLUDE_FRPS=n" >> .config #frps
