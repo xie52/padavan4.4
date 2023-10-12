@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "K2P CR660x"
+            targets: "CR660x"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
